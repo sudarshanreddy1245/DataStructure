@@ -1,6 +1,5 @@
 package com.learnbay.arrays.example;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -32,7 +31,7 @@ public class SubArraySum {
 			 }
 		}
 		
-		printSubArray(list);
+		printSubArrays(list);
 	}
 	
 	private static int[] splitSubArray(int[] array, int startIndex, int endIndex) {
@@ -45,7 +44,7 @@ public class SubArraySum {
 		return subArray;
 	}
 	
-	private static void printSubArray(List<int[]> subArrayList) {
+	private static void printSubArrays(List<int[]> subArrayList) {
 		for(int[] subArray : subArrayList) {
 			Arrays.stream(subArray).boxed().iterator().forEachRemaining(i->System.out.print(i + " "));
 			System.out.println("\n");
