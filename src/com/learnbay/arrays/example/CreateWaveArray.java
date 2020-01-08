@@ -1,5 +1,6 @@
 package com.learnbay.arrays.example;
 
+
 public class CreateWaveArray {
 	
 	public static void main(String[] args) {
