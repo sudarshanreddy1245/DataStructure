@@ -1,6 +1,10 @@
 package com.learnbay.arrays.example;
 
+/*
+ * Input : 1 3 6 3 7 8 9 3 4 7 2 4
+ * Ex output: 1 6 3 7 4 9 3 8 4 7 2 4
 
+ */
 public class CreateWaveArray {
 	
 	public static void main(String[] args) {
