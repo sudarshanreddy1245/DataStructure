@@ -2,7 +2,7 @@ package com.learnbay.arrays.example;
 
 /*
  * Find maximum Product of two integers in an array
- * Input : -10, -3, 5, 6, -2
+ * Input  : -10, -3, 5, 6, -2
  * output : -10 and -3 
  *            5 and  6
  */
