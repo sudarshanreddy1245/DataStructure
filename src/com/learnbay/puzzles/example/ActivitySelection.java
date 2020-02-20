@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * https://www.techiedelight.com/activity-selection-problem/
+ * @author sudarshan.reddy
+ *
+ */
 class Pair
 {
 	private int start, finish;
